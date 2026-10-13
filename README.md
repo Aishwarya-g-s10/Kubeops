@@ -6,3 +6,6 @@ DAY 1
 - Created FastApi Service
 - Containerized the application using docker
 - Created the initial docker image 
+
+DAY 2
+- Deployed Kubeops in Kubernetes
