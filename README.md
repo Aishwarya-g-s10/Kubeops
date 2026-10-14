@@ -9,3 +9,10 @@ DAY 1
 
 DAY 2
 - Deployed Kubeops in Kubernetes
+
+DAY 3
+- Configured liveness probe and readiness probe in the deployment
+- Liveness probe checks whether the container is alive and whether it needs a restart
+- Readiness probe checks whether the container or application is ready to recive traffic
+- Tested readiness probe failure by configuring incorrect endpoint
+- observed the pod became unready without restarting the container
