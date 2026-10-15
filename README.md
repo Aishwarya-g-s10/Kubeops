@@ -16,3 +16,7 @@ DAY 3
 - Readiness probe checks whether the container or application is ready to recive traffic
 - Tested readiness probe failure by configuring incorrect endpoint
 - observed the pod became unready without restarting the container
+
+DAY 4
+- Configured Fastapi Instrumentator to record the application metrics
+- Exposed the collectd metrics through the /metrics endpoint.
