@@ -20,3 +20,10 @@ DAY 3
 DAY 4
 - Configured Fastapi Instrumentator to record the application metrics
 - Exposed the collectd metrics through the /metrics endpoint.
+
+DAY 5
+- Created a Kubernetes ConfigMap to store the Prometheus scrape configuration.
+- Configured Prometheus to scrape Kubeops metrics from /metrics every 15 seconds.
+- Created a Prometheus Deployment with a ConfigMap volume mount to load the configuration.
+- Created a Kubernetes Service to expose the Prometheus UI on port 9090.
+- Accessed the Prometheus UI and queried the up metric to inspect the KubeSentinel scrape
